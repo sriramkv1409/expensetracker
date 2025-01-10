@@ -5,9 +5,16 @@ const {v4:uuidv4} = require('uuid'); //import uuid
 const app = express();
 app.use(express.json()) // middleware between request and response;
 
-mongoose.connect('mongodb://localhost:27017/expense').then(()=>{
+
+
+try{
+mongoose.connect('mongodb+srv://muralidharans2023cce:1234567890@cluster0.s5gbwgq.mongodb.net/expense').then(()=>{
     console.log('connected to database');
 })
+}
+catch(err){
+    console.log("erefsfsdf ")
+}
 
 const expenseSchema = new mongoose.Schema({
     id:{type:String,required:true,unique:true},
