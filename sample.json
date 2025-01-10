@@ -1,0 +1,27 @@
+[{
+    "name" : "Sriram",
+    "age" : 20,
+    "city" : "Chennai",
+    "amount" : 1000 
+},{
+    "name" : "Raj",
+    "age" : 25,
+    "city" : "Bangalore",
+    "amount" : 2000
+},{
+    "name" : "Ravi",
+    "age" : 30,
+    "city" : "Hyderabad",
+    "amount" : 3000
+},{
+    "name" : "Rajesh",
+    "age" : 35,
+    "city" : "Mumbai",
+    "amount" : 4000
+},{
+    "name" : "Rajkumar",
+    "age" : 50,
+    "city" : "Pune",
+    "amount" : 7000
+}
+]
