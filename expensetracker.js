@@ -6,9 +6,9 @@ const app = express();
 app.use(express.json()) // middleware between request and response;
 
 
-
+ 
 try{
-mongoose.connect('mongodb+srv://muralidharans2023cce:1234567890@cluster0.s5gbwgq.mongodb.net/expense').then(()=>{
+mongoose.connect('mongodb+srv://sriramkv1409:sriramkv2005@cluster0.gbsuknc.mongodb.net/expense').then(()=>{
     console.log('connected to database');
 })
 }
