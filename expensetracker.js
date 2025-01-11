@@ -1,10 +1,10 @@
 var express = require('express');
 const mongoose = require('mongoose');
 const {v4:uuidv4} = require('uuid'); //import uuid
-
+const cors = require('cors')
 const app = express();
 app.use(express.json()) // middleware between request and response;
-
+app.use(cors())
 
  
 try{
